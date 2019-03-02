@@ -1,11 +1,10 @@
 {
-  "name": "angular-electron",
-  "version": "5.1.0",
+  "name": "soap-magician",
+  "version": "0.0.1",
   "description": "Angular 7 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "homepage": "https://github.com/gillesveyet/soap-magician",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Gilles Veyet"
   },
   "keywords": [
     "angular",

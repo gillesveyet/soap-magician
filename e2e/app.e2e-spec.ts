@@ -1,15 +1,15 @@
-import { AngularElectronPage } from './app.po';
-import { browser, element, by } from 'protractor';
+// import { MainPage } from './app.po';
+// import { browser, element, by } from 'protractor';
 
-describe('angular-electron App', () => {
-  let page: AngularElectronPage;
+// describe('soap-magician App', () => {
+//   let page: MainPage;
 
-  beforeEach(() => {
-    page = new AngularElectronPage();
-  });
+//   beforeEach(() => {
+//     page = new MainPage();
+//   });
 
-  it('should display message saying App works !', () => {
-    page.navigateTo('/');
-    expect(element(by.css('app-home h1')).getText()).toMatch('App works !');
-  });
-});
+//   it('should display message saying App works !', () => {
+//     page.navigateTo('/');
+//     expect(element(by.css('app-home h1')).getText()).toMatch('App works !');
+//   });
+// });
