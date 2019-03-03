@@ -1,17 +1,15 @@
 {
   "name": "soap-magician",
   "version": "0.0.1",
-  "description": "Angular 7 with Electron (Typescript + SASS + Hot Reload)",
+  "description": "SOAP Magician",
   "homepage": "https://github.com/gillesveyet/soap-magician",
   "author": {
     "name": "Gilles Veyet"
   },
   "keywords": [
     "angular",
-    "angular 7",
     "electron",
-    "typescript",
-    "sass"
+    "typescript"
   ],
   "main": "main.js",
   "private": true,

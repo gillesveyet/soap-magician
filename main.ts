@@ -18,6 +18,7 @@ function createWindow() {
         y: 0,
         width: size.width,
         height: size.height
+        //,icon: path.join(__dirname, 'assets/favicon.256x256.png') // useless ?
     });
 
     console.log(`__dirname:${__dirname} args:[${process.argv}] serve:${serve}`);
