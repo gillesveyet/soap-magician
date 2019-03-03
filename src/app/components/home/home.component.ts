@@ -14,13 +14,13 @@ export class HomeComponent implements OnInit {
     }
 
     ngOnInit() {
-        console.log('HomeComponent.ngOnInit-');
-        //console.log(`__dirname:${__dirname} args:[${process.argv}]`);     // => error __dirname not  defined, same  with process
-
+        console.log('HomeComponent.ngOnInit');
 
         if (this.service.isElectron) {
+            console.log(`args:[${process.argv}]`);
+
             this.files = this.service.fs.readdirSync(__dirname);
-            console.log(this.files);
+            console.log(`__dirname:${__dirname} Files=>`, this.files);
         }
     }
 

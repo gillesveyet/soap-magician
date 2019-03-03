@@ -22,12 +22,14 @@ function createWindow() {
 
     console.log(`__dirname:${__dirname} args:[${process.argv}] serve:${serve}`);
 
-    //Hot reload: only works when serve is true.
-    require('electron-reload')(__dirname, {
-        electron: path.join(__dirname, 'node_modules', '.bin', 'electron')      // not sure if this useful. Use 'electron.cmd' instead of 'electron' on Windows ?
-    });
-
     if (serve) {
+        require('electron-reload')(__dirname, {
+            // not sure if electron property is useful.
+            // was: electron: require(`${__dirname}/node_modules/electron`)
+            // changed according to https://www.npmjs.com/package/electron-reload
+            electron: path.join(__dirname, 'node_modules', '.bin', 'electron')      //  Use 'electron.cmd' instead of 'electron' on Windows ?
+        });
+
         win.loadURL('http://localhost:4200');
     } else {
         win.loadURL(url.format({
