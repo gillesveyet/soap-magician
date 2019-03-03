@@ -1,11 +1,15 @@
 Based on https://github.com/maximegris/angular-electron
 
 
-Currently runs with:
 
-- Angular v7.2.0
-- Electron v4.0.0
-- Electron Builder v20.28.1
+Currently runs with:
+- Angular v7.2.7
+- Electron v4.0.6
+- Electron Builder v20.38.5
+
+
+Entry point of app defined in package.json => "main": "main.js" (in root folder, transpiled from main.ts). Default entry point is index.js (cf. https://electronjs.org/docs/tutorial/first-app)
+Angular starting point is defined in angular.json =>  "main": "src/main.ts" (in src folder)
 
 
 ## To build for development
