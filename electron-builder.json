@@ -1,8 +1,8 @@
 {
-  "productName": "soap-magician",
-  "directories": {
-    "output": "release/"
-  },
+    "productName": "soap-magician",
+    "directories": {
+        "output": "release/"
+    },
     "files": [
         "**/*",
         "!**/*.ts",
@@ -19,22 +19,23 @@
         "!tsconfig.json",
         "!tslint.json"
     ],
-  "win": {
-    "icon": "src/assets/favicon.256x256.png",
-    "target": [
-      "portable"
-    ]
-  },
-  "mac": {
-    "icon": "src/assets/favicon.256x256.png",
-    "target": [
-      "dmg"
-    ]
-  },
-  "linux": {
-    "icon": "src/assets/favicon.256x256.png",
-    "target": [
-      "AppImage"
-    ]
-  }
+    "win": {
+        "icon": "src/assets/favicon.256x256.png",
+        "target": [
+            "7z",
+            "portable"
+        ]
+    },
+    "mac": {
+        "icon": "src/assets/favicon.256x256.png",
+        "target": [
+            "dmg"
+        ]
+    },
+    "linux": {
+        "icon": "src/assets/favicon.256x256.png",
+        "target": [
+            "AppImage"
+        ]
+    }
 }
